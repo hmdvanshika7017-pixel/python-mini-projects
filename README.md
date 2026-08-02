@@ -10,3 +10,7 @@ My 100 Days of Python projects for Microsoft Internship
 ```bash
 python age_checker.py
 ```
+
+## Day 2: Number Guessing Game ✅
+**Features:** 5 chances, Hints with arrows, Win/Lose messages
+**Logic:** `for loop` + `if-elif-else` + `random.randint`
