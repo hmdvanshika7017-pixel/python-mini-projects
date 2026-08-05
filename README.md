@@ -24,4 +24,4 @@ python age_checker.py
 - Win/Loss/Draw logic with `if-elif-else`
 - User input handling
 
-**Code:** `rock_paper_scissor.py`
+**Code:** `rock_paper_scissor.py
