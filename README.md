@@ -14,3 +14,14 @@ python age_checker.py
 ## Day 2: Number Guessing Game ✅
 **Features:** 5 chances, Hints with arrows, Win/Lose messages
 **Logic:** `for loop` + `if-elif-else` + `random.randint`
+
+
+### Day 3: Rock Paper Scissor Game 🎮
+**Completed in 2 days with consistency**
+
+**Features:**
+- Play against computer using `random` module
+- Win/Loss/Draw logic with `if-elif-else`
+- User input handling
+
+**Code:** `rock_paper_scissor.py`
