@@ -2,8 +2,10 @@
 BTech CSE 1st Year @MIET | Learning Python for Microsoft Internship | #100DaysOfCode
 
 ## 📊 Progress
-**3/100 Projects Completed** ✅
-# python-mini-projects
+## 📊 Projects List
+1. **Day 1: Age Checker** - Voting eligibility checker using if-else
+2. **Day 2: Number Guessing Game** - Game with 5 chances + hints using loops
+3. **Day 3: Rock Paper Scissor** - Play vs Computer using random module
 
 My 100 Days of Python projects for Microsoft Internship 
 #100DaysOfCode
