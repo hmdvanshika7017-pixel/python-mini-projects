@@ -1,3 +1,8 @@
+## 🚀 About Me
+BTech CSE 1st Year @MIET | Learning Python for Microsoft Internship | #100DaysOfCode
+
+## 📊 Progress
+**3/100 Projects Completed** ✅
 # python-mini-projects
 
 My 100 Days of Python projects for Microsoft Internship 
