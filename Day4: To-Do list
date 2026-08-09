@@ -1,0 +1,16 @@
+task = []  # khali list
+
+while True:
+    new_task = input("enter your work or type 'view' or 'exit': ")
+    
+    if new_task == "exit":
+        break  # loop tod do
+    
+    elif new_task == "view":
+        print("your tasks:", task)  # bas list print kar do
+    
+    else:
+        task.append(new_task)
+        print("added!")
+
+print("your final tasks:", task)
