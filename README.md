@@ -46,3 +46,20 @@ python age_checker.py
 **Kaise chalaye:**
 ```bash
 python Day4_Todo_List.py 
+
+5. **Day 5: Scientific Calculator** - Advanced calculator with sqrt, sin, cos, tan, log, factorial + error handling
+
+### Day 5: Scientific Calculator ✅
+**Kya karta hai:** Basic math ke saath scientific operations bhi karta hai. User se operation choose karwa ke result deta hai.
+
+**Features:**
+- Basic: `+`, `-`, `*`, `/`, `^` power
+- Scientific: `sqrt`, `sin`, `cos`, `tan`, `log`, `factorial`
+- Error handling: divide by 0, negative sqrt, negative factorial, log of 0
+- Angle input degrees me lete hain, radians me convert hota hai
+
+**Logic:** `math` module + `while True` loop + `if-elif-else` + `try-except` for ValueError
+
+**Kaise chalaye:**
+```bash
+python scientific_calculator.py
