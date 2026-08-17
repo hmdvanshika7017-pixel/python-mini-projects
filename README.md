@@ -7,7 +7,7 @@ BTech CSE 1st Year @MIET | Learning Python for Microsoft Internship | #100DaysOf
 2. **Day 2: Number Guessing Game** - Game with 5 chances + hints using loops
 3. **Day 3: Rock Paper Scissor** - Play vs Computer using random module
 4. **Day 4: To-Do List** - CLI app with while loop and lists
-5. **Day 5: scientifi_calculator ( +,-,*,/,sin,cos,tan,log,fact,sqrt)
+5. **Day 5: scientifi_calculator 
 
 My 100 Days of Python projects for Microsoft Internship 
 #100DaysOfCode
