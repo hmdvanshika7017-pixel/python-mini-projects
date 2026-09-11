@@ -1,0 +1,38 @@
+import math
+
+def scientific_calculator():
+    print("=== Day 5: Scientific Calculator ===")
+    print("Basic: +, -, *, /, ^ (power)")
+    print("Scientific: sqrt, sin, cos, tan, log, factorial")
+    print("Exit ke liye 'exit' likho\n")
+
+    while True:
+        try:
+            exp = input("Expression likho (jaise: sqrt(25) ya 2^3): ")
+
+            if exp.lower() == 'exit':
+                print("Calculator band ho gaya. Bye!")
+                break
+
+            # ^ ko ** me change karna power ke liye
+            exp = exp.replace('^', '**')
+            # User sqrt(25) likhe to math.sqrt(25) ho jaye
+            exp = exp.replace('sqrt', 'math.sqrt')
+            exp = exp.replace('sin', 'math.sin')
+            exp = exp.replace('cos', 'math.cos')
+            exp = exp.replace('tan', 'math.tan')
+            exp = exp.replace('log', 'math.log10')
+            exp = exp.replace('factorial', 'math.factorial')
+
+            result = eval(exp)
+            print(f"Result: {result}\n")
+
+        except ZeroDivisionError:
+            print("Error: 0 se divide nahi kar sakte!\n")
+        except ValueError:
+            print("Error: Negative ka sqrt nahi nikal sakta!\n")
+        except Exception as e:
+            print(f"Error: Galat input! Dobara try karo.\n")
+
+if __name__ == "__main__":
+    scientific_calculator()
