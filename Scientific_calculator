@@ -35,4 +35,4 @@ def scientific_calculator():
             print(f"Error: Galat input! Dobara try karo.\n")
 
 if __name__ == "__main__":
-    scientific_calculator()
+    scientific_calculator().
